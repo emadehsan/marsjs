@@ -36,9 +36,11 @@ cat.onload = async () => {
     // truncate the label
     const TRUNCATE_LEN = 33;
     let shortLabel = x.label;
-    shortLabel = shortLabel.substring(0, TRUNCATE_LEN).split(" ").slice(0, -1).join(" ");
-    if (x.label.length > shortLabel) {
-      shortLabel += '...'; // indicates that title was longer
+    if (x.label.length > TRUNCATE_LEN) {
+      shortLabel = shortLabel.substr(0, TRUNCATE_LEN).trim();
+      let lastSpace = shortLabel.lastIndexOf(' ');
+      shortLabel = shortLabel.substr(0, lastSpace);
+      shortLabel += '...'; // indicates that label was longer
     }
 
     resultElement.innerHTML += `<p>${x.value.toFixed(3)}: ${shortLabel}</p>`;
