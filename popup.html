@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mars@Home</title>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="popup.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Mars @ H<img src="earth.png" width="19px;">ME</h1>
+        <p id="subtitle">Conquer the Space | Start at Home</p>
+
+        <hr>
+        <h4>Now processing: </h4>
+        <img src="./tractor.jpg">
+        <h4>Confidence: Label</h4>
+        <p>0.629: Tractor</p>
+        <p>0.231: Truck</p>
+        <p>0.021: Car</p>        
+        <h4>Computations completed: <span id="numProcessed"></span></h4>
+        <hr>
+
+        <span id="footer">
+            <h2>Spread the Word!</h2>
+            <p>It's open source and community driven effort!</p>
+            <input 
+                id="link-field" 
+                type="text" 
+                readonly
+                onClick="this.select()" 
+                value="https://marsathome.github.io">    
+        </span>
+        
+    </body>
+</html>
