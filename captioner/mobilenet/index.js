@@ -1,7 +1,7 @@
 
 import * as tf from '@tensorflow/tfjs';
 import {MobileNet} from './mobilenet';
-import imageURL from './cat.jpg';
+import imageURL from './MarsAtHome.jpg';
 
 // for each image just processed
 let captions = [];
