@@ -32,7 +32,16 @@ cat.onload = async () => {
 
   resultElement.innerHTML = '';
   topK.forEach(x => {
-    resultElement.innerHTML += `<p>${x.value.toFixed(3)}: ${x.label}</p>`;
+
+    // truncate the label
+    const TRUNCATE_LEN = 33;
+    let shortLabel = x.label;
+    shortLabel = shortLabel.substring(0, TRUNCATE_LEN).split(" ").slice(0, -1).join(" ");
+    if (x.label.length > shortLabel) {
+      shortLabel += '...'; // indicates that title was longer
+    }
+
+    resultElement.innerHTML += `<p>${x.value.toFixed(3)}: ${shortLabel}</p>`;
 
     let caption = {
       score: x.value.toFixed(3),
@@ -140,6 +149,12 @@ async function setImage(object) {
     console.log('unsplashUrl: ', unsplashUrl);
     return;
   }
+
+  // also set link to Unsplash image
+  // <h4 id="nowProcessing">Now processing: </h4>
+  let photoLink = `https://unsplash.com/photos/${unsplashId}`;
+  let nowProcessingTag = document.getElementById('nowProcessing');
+  nowProcessing.innerHTML = `Now processing: <a target="_black" href="${photoLink}">${unsplashId}</a>`;
 
   /*
   * replace fit, crop, w, h params with their value from url along "&".
