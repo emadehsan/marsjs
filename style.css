@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 70%;
   /*background: #27ae60;*/
   background: #2c3e50;
+  /*background: #576574;*/
   color: #f1c40f;
+
+  /*background: #1A5542;*/
+  /*color: #72C0A6;*/
+  /*color: #9CD4B9;*/
   min-width: 300px;
 }
 
@@ -23,9 +28,9 @@ body {
   background: #fff;
   color: #2980b9;
   font-weight: italic;
-  padding: 5px;
+  padding: 5px 30px;
   border: none;
-  border-radius: 2px;
+  border-radius: 5px;
   height: 20px;
   /*float: left;*/
   /*margin-right: 5px;*/
