@@ -26,12 +26,13 @@ cat.onload = async () => {
 
   console.time('First prediction');
   let result = mobileNet.predict(pixels);
-  const topK = mobileNet.getTopKClasses(result, 5);
+  // const topK = mobileNet.getTopKClasses(result, 5);
+  const topK = mobileNet.getTopKClasses(result, 3);
   console.timeEnd('First prediction');
 
-  resultElement.innerText = '';
+  resultElement.innerHTML = '';
   topK.forEach(x => {
-    resultElement.innerText += `${x.value.toFixed(3)}: ${x.label}\n`;
+    resultElement.innerHTML += `<p>${x.value.toFixed(3)}: ${x.label}</p>`;
 
     let caption = {
       score: x.value.toFixed(3),
@@ -55,7 +56,7 @@ cat.onload = async () => {
 
   // console.time('Subsequent predictions');
   // result = mobileNet.predict(pixels);
-  // mobileNet.getTopKClasses(result, 5);
+  // mobileNet.getTopKClasses(result, 3);
   // console.timeEnd('Subsequent predictions');
   mobileNet.dispose();
 };

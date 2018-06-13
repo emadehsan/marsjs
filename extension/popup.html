@@ -13,11 +13,19 @@
 
         <hr>
         <h4>Now processing: </h4>
-        <img src="./tractor.jpg">
+        
+        <!-- replace following with built code -->
+        <!-- <img src="./mah224.jpg" id="cat">
         <h4>Confidence: Label</h4>
         <p>0.629: Tractor</p>
         <p>0.231: Truck</p>
-        <p>0.021: Car</p>        
+        <p>0.021: Car</p>      -->   
+
+        <img id="cat" src="mah224.jpg"><h4>Confidence: Label</h4><div id="result"></div>
+
+        <!-- replace till here -->
+        
+
         <h4>Computations completed: <span id="numProcessed"></span></h4>
         <hr>
 
@@ -29,9 +37,9 @@
                 id="link-field" 
                 type="text" 
                 readonly
-                onClick="this.select()" 
                 value="https://marsathome.github.io">    
         </span>
         
     </body>
+    <script src="/dist/mobilenet.d038472c.js"></script>
 </html>

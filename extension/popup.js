@@ -4,7 +4,7 @@ $(function(){
         if (store.numProcessed == null) {
             chrome.storage.sync.set({'numProcessed': 0}, function(){               
                 console.log('numProcessed set to 0');
-            }
+            });
 
             // set to 0 because not already set
             $('#numProcessed').text(0);
@@ -45,6 +45,12 @@ $(function(){
 
         });
     });
+
+    $("#link-field").on("click", function () {
+       $(this).select();
+       document.execCommand("copy");
+    });
+
 });
 
 function copyLink() {
