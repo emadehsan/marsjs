@@ -6,9 +6,10 @@
 body {
   line-height: 70%;
   /*background: #27ae60;*/
-  background: #2c3e50;
-  background: #3C40C6;
-  color: #f1c40f;
+  /*background: #2c3e50;*/
+  /*background: #3C40C6;*/
+  background: #0000FF;
+  /*color: #f1c40f;*/
   color: #FAFBFE;
 
   /*background: #1A5542;*/
@@ -46,4 +47,13 @@ body {
 
 #result {
   text-transform: capitalize;
+}
+
+#cat {
+  background: transparent;
+}
+
+#nowProcessing a {
+  color: white;
+  /*text-decoration: none;*/
 }
