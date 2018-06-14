@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Mars@Home",
-  "description": "Public Volunteer Computing Project. V1: Label the Unsplash Images",
-  "version": "1.0",
+  "name": "Mars@Home - Image Labeling using AI",
+  "description": "Public Volunteer Computing Project. V1: Label the Unsplash Images using Deep Learning",
+  "version": "1.1",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
