@@ -1,14 +1,14 @@
 # Mars@Home Chrome Extension
 
-![Mars@Home Banner](./images/banner.png)
+![Mars@Home Banner](./images/banner.PNG?raw=true)
 
 Labels image from Unsplash in your browser - using MobileNet on Tensorflow.Js.
 
 ## Few Examples
 
-![Labelled 1](./background-0.png)
+![Labelled 1](./background-0.PNG?raw=true)
 
-![Labelled 2](./background-1.png)
+![Labelled 2](./background-1.PNG?raw=true)
 
 
 ## Libraries Used
