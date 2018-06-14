@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Mars@Home",
-  "description": "This extension tracks your overall spendings.",
+  "description": "Public Volunteer Computing Project. V1: Label the Unsplash Images",
   "version": "1.0",
   "icons": {
     "128": "icon128.png",

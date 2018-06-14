@@ -62,3 +62,7 @@ body {
   position: relative;
   bottom: -4px;
 }
+
+#link {
+  color: white;
+}
