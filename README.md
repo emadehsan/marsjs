@@ -6,9 +6,9 @@ Labels image from Unsplash in your browser - using MobileNet on Tensorflow.Js.
 
 ## Few Examples
 
-![Labelled 1](./background-0.PNG?raw=true)
+![Labelled 1](./images/background-0.PNG?raw=true)
 
-![Labelled 2](./background-1.PNG?raw=true)
+![Labelled 2](./images/background-1.PNG?raw=true)
 
 
 ## Libraries Used
