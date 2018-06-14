@@ -1,6 +1,6 @@
 # Mars@Home Chrome Extension
 
-![Mars@Home Banner](./images/banner.PNG?raw=true)
+[![Mars@Home Banner](./images/banner.PNG?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 
 ## V1
