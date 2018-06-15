@@ -13,6 +13,9 @@ The Version 1 of extension labels image from Unsplash in your browser - using Mo
 * [`images`](./images): Screenshots & media files for the README
 * [`logo-files`](./logo-files): Logo files for [Mars@Home](https://github.com/MarsAtHome/)
 
+## Non-Developer Quick Start
+Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj) :)
+
 ## Developer Quick Start
 
 * Clone this project
@@ -24,14 +27,16 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 * Turn ON `Developer mode`
 * Click `LOAD UNPACKED` and select the `extension` folder from cloned project
 
-### Few Examples of V1
+**Check the Current task by clicking <img src="./logo-files/MarsAtHome.png?raw=true" width="24" height="24">**
+
+## Few Examples of Image Labeling
 
 [![Labelled 1](./images/background-0.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 [![Labelled 2](./images/background-1.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 
-### Libraries Used in V1
+### Libraries Used in V1 of MaH-chrome
 
 * [Tensorflow.js](https://github.com/tensorflow/tfjs)
 * [TFJS Converter](https://github.com/tensorflow/tfjs-converter)
