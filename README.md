@@ -14,7 +14,7 @@ The Version 1 of extension labels image from Unsplash in your browser - using Mo
 * [`logo-files`](./logo-files): Logo files for [Mars@Home](https://github.com/MarsAtHome/)
 
 ## Non-Developer Quick Start
-Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj) :)
+Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 ## Developer Quick Start
 
@@ -31,9 +31,11 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 
 ## Few Examples of Image Labeling
 
-[![Labelled 1](./images/background-0.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+[![Screenshot Rose Hands](./images/ss3.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
-[![Labelled 2](./images/background-1.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+[![Screenshot Squirrel](./images/ss5.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+
+[![Screenshot Spiral](./images/ss4.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 
 ### Libraries Used in V1 of MaH-chrome
@@ -43,4 +45,4 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 * [MobileNet Ported to Tensorflow.js](https://github.com/tensorflow/tfjs-converter/tree/master/demo/mobilenet)
 
 ### Do Visit Us at
-https://marsathome.org/
+https://marsathome.org
