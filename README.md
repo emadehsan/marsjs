@@ -1,7 +1,8 @@
 # Mars@Home Chrome Extension
 
-[![Mars@Home Banner](./images/banner.PNG?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
-
+<p align="center">
+  <a href="https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj"><img src="./images/banner.PNG?raw=true"></a>
+</p>
 
 ## V1 at [Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 The Version 1 of extension labels image from Unsplash in your browser - using MobileNet on Tensorflow.Js. Download [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
