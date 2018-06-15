@@ -54,5 +54,5 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 * [TFJS Converter](https://github.com/tensorflow/tfjs-converter)
 * [MobileNet Ported to Tensorflow.js](https://github.com/tensorflow/tfjs-converter/tree/master/demo/mobilenet)
 
-## Do Visit the Project Home Page
+## Do Visit the Project Home
 https://marsathome.org
