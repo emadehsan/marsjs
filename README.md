@@ -1,8 +1,9 @@
 <p align="center">
   <a href="https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj"><img src="./images/banner.PNG?raw=true"></a>
+  <a href="https://twitter.com/home?status=Using%20Deep%20Learning,%20Label%20Unsplash.com%20photos%20with%20Tensorflow.js%20in%20your%20browser%3A%20https%3A//github.com/MarsAtHome/MaH-chrome"><img src="./images/twitter.png" width="30px;"></a>
 </p>
 
-# [Mars@Home for Google Chrome](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+# [Label Unsplash.com photos using Tensorflow.js in Chrome](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 The Version 1 of extension labels image from Unsplash in your browser - using MobileNet on Tensorflow.Js. Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
@@ -27,7 +28,7 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 * Turn ON `Developer mode`
 * Click `LOAD UNPACKED` and select the `extension` folder from cloned project
 
-**Check the Current task by clicking <img src="./logo-files/MarsAtHome.png?raw=true" width="24" height="24">**
+**Check the Current task by clicking <img src="./logo-files/MarsAtHome.png?raw=true" width="24" height="24"> in your browser's url bar**
 
 ## Few Examples of Image Labeling
 
