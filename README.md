@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj"><img src="./images/banner.PNG?raw=true"></a>
 
-  <a href="https://news.ycombinator.com/submitlink?u=https://github.com/MarsAtHome/MaH-chrome&t=Labeling Unsplash.com photos using Tensorflow.js in your browser"><img src="hacker-news.png" width="35px;"></a>
+  <a href="https://news.ycombinator.com/submitlink?u=https://github.com/MarsAtHome/MaH-chrome&t=Labeling Unsplash.com photos using Tensorflow.js in your browser"><img src="./images/hacker-news.png" width="35px;"></a>
   <a href="https://twitter.com/home?status=Using%20Deep%20Learning,%20Label%20Unsplash.com%20photos%20with%20Tensorflow.js%20in%20your%20browser%3A%20https%3A//github.com/MarsAtHome/MaH-chrome"><img src="./images/twitter.png" width="30px;"></a>
 </p>
 
