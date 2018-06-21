@@ -5,9 +5,9 @@
   <a href="https://twitter.com/home?status=Using%20Deep%20Learning,%20Label%20Unsplash.com%20photos%20with%20Tensorflow.js%20in%20your%20browser%3A%20https%3A//github.com/MarsAtHome/MaH-chrome"><img src="./images/twitter.png" width="30px;"></a>
 </p>
 
-# [Label Unsplash.com photos using Tensorflow.js in Chrome](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+# Marsjs - Using Tensorflow.js and Crowd Computing to label Unsplash.com photos in Browser
 
-The Version 1 of extension labels image from Unsplash in your browser - using MobileNet on Tensorflow.Js. Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+Marsjs is the browser client for Mars@Home. Currently this extension labels image from [Unsplash](https://unsplash.com) in browser - using MobileNet on Tensorflow.Js. Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 ## Project Structure
 
@@ -17,7 +17,7 @@ The Version 1 of extension labels image from Unsplash in your browser - using Mo
 * [`logo-files`](./logo-files): Logo files for [Mars@Home](https://github.com/MarsAtHome/)
 
 ## Non-Developer quickstart
-Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+Install [Mars@Home for Google Chrome](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 ## Developer quickstart
 
@@ -28,16 +28,16 @@ $ git clone https://github.com/MarsAtHome/MaH-chrome
 ```
 
 ### Firefox
-Go to `about:debugging` in Firefox
+1. Go to `about:debugging` in Firefox
 
-Click `Load Temporary Add-on`, select any file from inside `extension` folder from cloned project
+2. Click `Load Temporary Add-on`, select any file from inside `extension` folder from cloned project
 
 ### Chrome
-Go to `chrome://extensions/` in Chrome
+1. Go to `chrome://extensions/` in Chrome
 
-Turn ON `Developer mode`
+2. Turn ON `Developer mode`
 
-Click `LOAD UNPACKED` and select the `extension` folder from cloned project
+3. Click `LOAD UNPACKED` and select the `extension` folder from cloned project
 
 **Check the Current task by clicking <img src="./logo-files/MarsAtHome.png?raw=true" width="24" height="24"> in your browser's url bar**
 
@@ -60,11 +60,11 @@ Click `LOAD UNPACKED` and select the `extension` folder from cloned project
 [![Screenshot Gazelle](./images/ss1.png?raw=true)](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 
-## Libraries Used in V1 of MaH-chrome
+## Libraries & Model used
 
 * [Tensorflow.js](https://github.com/tensorflow/tfjs)
 * [TFJS Converter](https://github.com/tensorflow/tfjs-converter)
 * [MobileNet Ported to Tensorflow.js](https://github.com/tensorflow/tfjs-converter/tree/master/demo/mobilenet)
 
 ## Learn more about Mars@Home project
-→ https://marsathome.org
+Do visit → https://marsathome.org
