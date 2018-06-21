@@ -110,4 +110,4 @@ With this first version, we want to find out that *would people participate in a
 
 ## Learn more about Mars@Home project
 * Star this repository :)
-* Do visit → https://marsathome.org
+* Do add your email at → https://marsathome.org if you believe in the effort!
