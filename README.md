@@ -16,19 +16,28 @@ The Version 1 of extension labels image from Unsplash in your browser - using Mo
 * [`images`](./images): Screenshots & media files for the README
 * [`logo-files`](./logo-files): Logo files for [Mars@Home](https://github.com/MarsAtHome/)
 
-## Non-Developer Quick Start
+## Non-Developer quickstart
 Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
-## Developer Quick Start
+## Developer quickstart
 
-* Clone this project
+Clone this project
+
 ```
 $ git clone https://github.com/MarsAtHome/MaH-chrome
 ```
 
-* Go to `chrome://extensions/` in Chrome
-* Turn ON `Developer mode`
-* Click `LOAD UNPACKED` and select the `extension` folder from cloned project
+### Firefox
+Go to `about:debugging` in Firefox
+
+Click `Load Temporary Add-on`, select any file from inside `extension` folder from cloned project
+
+### Chrome
+Go to `chrome://extensions/` in Chrome
+
+Turn ON `Developer mode`
+
+Click `LOAD UNPACKED` and select the `extension` folder from cloned project
 
 **Check the Current task by clicking <img src="./logo-files/MarsAtHome.png?raw=true" width="24" height="24"> in your browser's url bar**
 
