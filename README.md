@@ -7,9 +7,10 @@
 
 # Marsjs - Using Tensorflow.js & Crowd Computing to label Unsplash photos in browser
 
-Marsjs is the browser client for Mars@Home. Currently this extension labels image from [Unsplash](https://unsplash.com) in browser - using MobileNet on Tensorflow.Js. Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
+Marsjs is the browser client for Mars@Home. Currently this extension labels image from [Unsplash](https://unsplash.com) in browser - using MobileNet on Tensorflow.Js. It is available on [Firefox addons site](https://addons.mozilla.org/en-GB/firefox/addon/marsathome/) and [Chrome web store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj).
 
 ## Non-Developer quickstart
+Install [Mars@Home for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/marsathome/)
 Install [Mars@Home for Google Chrome](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
 ## Developer quickstart
