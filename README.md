@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj"><img src="./images/banner.PNG?raw=true"></a>
 
-  Please Share: <a href="https://news.ycombinator.com/submitlink?u=https://github.com/MarsAtHome/MaH-chrome&t=Labeling Unsplash.com photos using Tensorflow.js in your browser"><img src="./images/hacker-news.png" width="30px;"></a>
+  **Share on:** <a href="https://news.ycombinator.com/submitlink?u=https://github.com/MarsAtHome/MaH-chrome&t=Labeling Unsplash.com photos using Tensorflow.js in your browser"><img src="./images/hacker-news.png" width="30px;"></a>
   <a href="https://twitter.com/home?status=Using%20Deep%20Learning,%20Label%20Unsplash.com%20photos%20with%20Tensorflow.js%20in%20your%20browser%3A%20https%3A//github.com/MarsAtHome/MaH-chrome"><img src="./images/twitter.png" width="30px;"></a>
 </p>
 
-# Marsjs - Using Tensorflow.js and Crowd Computing to label Unsplash.com photos in Browser
+# Marsjs - Using Tensorflow.js & Crowd Computing to label Unsplash photos in browser
 
 Marsjs is the browser client for Mars@Home. Currently this extension labels image from [Unsplash](https://unsplash.com) in browser - using MobileNet on Tensorflow.Js. Install [Mars@Home from Chrome Store](https://chrome.google.com/webstore/detail/marshome/dikaddifgkonkicimbgikbcbaagajjhj)
 
@@ -27,12 +27,12 @@ Clone this project
 $ git clone https://github.com/MarsAtHome/MaH-chrome
 ```
 
-### Firefox
+#### In Firefox
 1. Go to `about:debugging` in Firefox
 
 2. Click `Load Temporary Add-on`, select any file from inside `extension` folder from cloned project
 
-### Chrome
+#### In Chrome
 1. Go to `chrome://extensions/` in Chrome
 
 2. Turn ON `Developer mode`
