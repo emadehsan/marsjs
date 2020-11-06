@@ -19,7 +19,7 @@
     "babel-polyfill": "~6.26.0",
     "babel-preset-env": "~1.6.1",
     "clang-format": "~1.2.2",
-    "parcel-bundler": "~1.6.2"
+    "parcel-bundler": "~1.10.0"
   },
   "babel": {
     "presets": [
